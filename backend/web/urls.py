@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, re_path
 from web.views.index import index
 from web.views.user.account.login import LoginView
 from web.views.user.account.logout import LogoutView
